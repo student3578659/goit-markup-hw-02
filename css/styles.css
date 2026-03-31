@@ -112,6 +112,7 @@ a.action-link:hover {
 
 nav a {
 	font-weight: 500;
+	color: var(--navy-blue);
 }
 
 nav a:hover {
