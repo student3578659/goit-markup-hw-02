@@ -12,15 +12,13 @@
 	--white: #FFFFFF;
 	--dairy: #FCFCFC;
 	
-	--main-font-family: "Roboto", sans-serif;
-	--secondary-font-family: "Raleway", sans-serif
+	--main-font-family: "Roboto";
+	--secondary-font-family: "Raleway";
 }
 
 body {
-	font-family: var(--main-font-family);
+	font-family: var(--main-font-family), sans-serif;
 	font-optical-sizing: auto;
-	font-weight: 400;
-	font-style: normal;
 	font-size: 16px;
 	line-height: 1.5;
 	color: var(--slate);
@@ -69,10 +67,18 @@ button {
 	color: var(--white);
 }
 
+button:hover {
+	--iris: var(--ocean);
+}
+
 a {
 	text-decoration: none;
 	letter-spacing: 0.02em;
 	color: inherit;
+}
+
+a.action-link:hover {
+	color: var(--ocean);
 }
 
 .section-title {
@@ -80,11 +86,10 @@ a {
 }
 
 .logo {
-	font-family: var(--secondary-font-family);
+	font-family: var(--secondary-font-family), sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 21px;
 	letter-spacing: 0.03em;
 	color: var(--navy-blue);
 }
@@ -105,6 +110,7 @@ a {
 .team-card, .portfolio-card {
 	background-color: var(--white);
 }
+
 .team-card {
 	text-align: center;
 }
@@ -112,6 +118,10 @@ a {
 nav {
 	a {
 		font-weight: 500;
+	}
+	
+	a:hover {
+		color: var(--ocean);
 	}
 }
 
