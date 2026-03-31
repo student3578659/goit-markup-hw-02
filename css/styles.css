@@ -1,0 +1,125 @@
+:root {
+	--iris: #4D5AE5;
+	--ocean: #404BBF;
+	--navy-blue: #2E2F42;
+	--green: #31D0AA;
+	--slate: #434455;
+	--light-slate: #8E8F99;
+	--cornflower: #E7E9FC;
+	--cloud: #F4F4FD;
+	--navy-blue-modal: #2E2F42;
+	--grey: #2E2F42;
+	--white: #FFFFFF;
+	--dairy: #FCFCFC;
+	
+	--main-font-family: "Roboto", sans-serif;
+	--secondary-font-family: "Raleway", sans-serif
+}
+
+body {
+	font-family: var(--main-font-family);
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--slate);
+	background-color: var(--white);
+}
+
+h1, h2, h3, .header-h3 {
+	letter-spacing: 0.02em;
+}
+
+h1, h2 {
+	font-weight: 700;
+}
+
+h2, h3, .header-h3 {
+	color: var(--navy-blue);
+}
+
+h1 {
+	font-size: 56px;
+	line-height: 1.07;
+	color: var(--white);
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 1.11;
+	text-transform: capitalize;
+}
+
+h3, .header-h3 {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+p {
+	letter-spacing: 0.02em;
+}
+
+button {
+	font-family: inherit;
+	font-weight: 500;
+	letter-spacing: 0.04em;
+	cursor: pointer;
+	background-color: var(--iris);
+	color: var(--white);
+}
+
+a {
+	text-decoration: none;
+	letter-spacing: 0.02em;
+	color: inherit;
+}
+
+.section-title {
+	text-align: center;
+}
+
+.logo {
+	font-family: var(--secondary-font-family);
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 0.03em;
+	color: var(--navy-blue);
+}
+
+.logo span {
+	color: var(--iris);
+}
+
+.hero {
+	text-align: center;
+	background-color: var(--navy-blue);
+}
+
+.team {
+	background-color: var(--cloud);
+}
+
+.team-card, .portfolio-card {
+	background-color: var(--white);
+}
+.team-card {
+	text-align: center;
+}
+
+nav {
+	a {
+		font-weight: 500;
+	}
+}
+
+footer {
+	background-color: var(--navy-blue);
+	color: var(--white);
+}
+
+footer .logo {
+	color: inherit;
+}
