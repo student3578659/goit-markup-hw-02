@@ -115,14 +115,11 @@ a.action-link:hover {
 	text-align: center;
 }
 
-nav {
-	a {
-		font-weight: 500;
-	}
-	
-	a:hover {
-		color: var(--ocean);
-	}
+nav a {
+	font-weight: 500;
+}
+nav a:hover {
+	color: var(--ocean);
 }
 
 footer {
