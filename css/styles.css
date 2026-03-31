@@ -53,6 +53,10 @@ h3, .header-h3 {
 	font-size: 20px;
 }
 
+address {
+	font-style: normal;
+}
+
 button {
 	font-family: inherit;
 	font-weight: 500;
